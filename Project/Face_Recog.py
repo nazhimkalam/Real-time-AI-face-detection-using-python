@@ -17,7 +17,7 @@ while True:
     # read the current frame
     successful_frame_read, frame = webCam.read()
 
-    # converting to greyscale (black and white)
+    # converting to greyscale (black and white) (we use grey scale so that the data set checks for brightness on the image/frame to assume that it is a face)
     greyScaled_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Detect Faces
