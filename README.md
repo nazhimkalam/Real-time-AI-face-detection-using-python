@@ -5,7 +5,6 @@
 
 	eg:- py -3.8 -m pip install opencv-python
 
-#### Don't forget to hit enter😂
 
 🔥
 
